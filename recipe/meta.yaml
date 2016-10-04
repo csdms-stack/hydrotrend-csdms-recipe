@@ -17,8 +17,5 @@ requirements:
 test:
   requires:
     - pymt
-  imports:
-  - csdms
-  - csdms.Hydrotrend
   commands:
   - python -c 'from pymt.components import Hydrotrend; print Hydrotrend().defaults'
