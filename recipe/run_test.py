@@ -8,5 +8,5 @@ from pymt.components import Hydrotrend
 
 ht = Hydrotrend()
 for default in ht.defaults:
-    print '{name}: {val} {units}'.format(
-        name=default[0], val=default[1], units=val[2])
+    print('{name}: {val} {units}'.format(
+        name=default[0], val=default[1], units=val[2]))
