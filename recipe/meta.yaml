@@ -1,0 +1,24 @@
+{% set name = "csdms-hydrotrend" %}
+{% set version = "3.0" %}
+{% set build_string = environ.get('GIT_BUILD_STR', '') %}
+
+package:
+  name: {{ name }}
+  version: {{ version }}
+
+requirements:
+  build:
+    - bmi-babel
+    - hydrotrend
+  run:
+    - bmi-babel
+    - hydrotrend
+
+test:
+  requires:
+    - pymt
+  imports:
+  - csdms
+  - csdms.Hydrotrend
+  commands:
+  - python -c 'from pymt.components import Hydrotrend; print Hydrotrend().defaults'
