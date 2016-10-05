@@ -6,6 +6,10 @@ package:
   name: {{ name }}
   version: {{ version }}
 
+source:
+  git_url: https://github.com/mcflugen/{{ name }}
+  git_branch: add-bmi-metadata
+
 requirements:
   build:
     - bmi-babel
