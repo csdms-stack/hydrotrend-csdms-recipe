@@ -15,7 +15,7 @@ try:
 except ImportError:
     raise
 else:
-    print(csdms.__path__)
+    print(csdms.__path__[0])
 
 try:
     print('import csdms.Hydrotrend')
@@ -26,7 +26,7 @@ except ImportError:
         print('- {fn}'.format(fn=fn))
     raise
 else:
-    print(Hydrotrend())
+    print(csdms.Hydrotrend.Hydrotrend())
 
 try:
     print('from pymt.components import Hydrotrend')
