@@ -38,4 +38,4 @@ else:
 
 for default in ht.defaults:
     print('{name}: {val} {units}'.format(
-        name=default[0], val=default[1], units=default[2]))
+        name=default[0], val=default[1][0], units=default[1][1]))
