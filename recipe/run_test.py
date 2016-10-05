@@ -21,6 +21,7 @@ try:
     print('import csdms.Hydrotrend')
     import csdms.Hydrotrend
 except ImportError:
+    print(os.listdir(csdms.__path__))
     raise
 else:
     print(Hydrotrend())
