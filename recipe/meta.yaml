@@ -21,3 +21,14 @@ requirements:
 test:
   requires:
     - pymt
+
+about:
+  home: http://csdms.colorado.edu/wiki/Model:HydroTrend
+  license: MIT
+  summary: Babelized version of hydrotrend
+  description: |
+    HydroTrend v.3.0 is a climate-driven hydrological water balance
+    and transport model that simulates water discharge and sediment
+    load at a river outlet.
+  doc_url: http://csdms.colorado.edu/wiki/Model:HydroTrend
+  dev_url: http://github.com/mcflugen/hydrotrend
