@@ -1,6 +1,6 @@
 # Current Build Status
 
-Linux, OSX: [![Build Status](https://travis-ci.org/csdms-stack/csdms-hydrotrend-recipe.svg?branch=master)](https://travis-ci.org/csdms-stack/csdms-hydrotrend-recipe)
+Linux, OSX: [![Build Status](https://travis-ci.org/csdms-stack/hydrotrend-csdms-recipe.svg?branch=master)](https://travis-ci.org/csdms-stack/hydrotrend-csdms-recipe)
 
 # About csdms-hydrotrend
 
