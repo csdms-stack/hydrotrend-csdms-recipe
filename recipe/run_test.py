@@ -4,7 +4,7 @@ import os
 os.mkdir('_testing')
 os.chdir('_testing')
 
-from pymt.components import Avulsion as Model
+from pymt.components import Hydrotrend as Model
 
 model = Model()
 
