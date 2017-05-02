@@ -1,6 +1,5 @@
 {% set name = "csdms-hydrotrend" %}
 {% set version = "3.0" %}
-{% set build_string = environ.get('GIT_BUILD_STR', '') %}
 
 package:
   name: {{ name }}
@@ -8,7 +7,7 @@ package:
 
 source:
   git_url: https://github.com/mcflugen/hydrotrend
-  git_branch: add-bmi-metadata
+  git_branch: master
 
 requirements:
   build:
@@ -21,6 +20,9 @@ requirements:
 test:
   requires:
     - pymt
+
+build:
+  number: 2
 
 about:
   home: http://csdms.colorado.edu/wiki/Model:HydroTrend
