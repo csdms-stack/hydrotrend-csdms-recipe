@@ -11,25 +11,28 @@ source:
 
 requirements:
   build:
-    - bmi-babel
+    - babelizer
     - hydrotrend
+    - scipy <=0.18.1
   run:
-    - bmi-babel
+    - babelizer
     - hydrotrend
+    - scipy <=0.18.1
 
 test:
   requires:
+    - matplotlib
     - pymt
 
 build:
-  number: 2
+  number: 3
 
 about:
   home: http://csdms.colorado.edu/wiki/Model:HydroTrend
   license: MIT
   summary: Babelized version of hydrotrend
-  description: |
-    HydroTrend v.3.0 is a climate-driven hydrological water balance
+  description:
+    HydroTrend v3.0 is a climate-driven hydrological water balance
     and transport model that simulates water discharge and sediment
     load at a river outlet.
   doc_url: http://csdms.colorado.edu/wiki/Model:HydroTrend
