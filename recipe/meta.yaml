@@ -13,6 +13,7 @@ requirements:
   build:
     - babelizer
     - hydrotrend
+    - gcc [osx]
   run:
     - cca-babel <2
     - cca-spec-babel
