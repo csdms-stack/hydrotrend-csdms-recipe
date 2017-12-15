@@ -13,19 +13,17 @@ requirements:
   build:
     - babelizer
     - hydrotrend
-    - scipy <=0.18.1
   run:
-    - babelizer
+    - cca-babel <2
+    - cca-spec-babel
     - hydrotrend
-    - scipy <=0.18.1
 
 test:
   requires:
-    - matplotlib
     - pymt
 
 build:
-  number: 3
+  number: 5
 
 about:
   home: http://csdms.colorado.edu/wiki/Model:HydroTrend
